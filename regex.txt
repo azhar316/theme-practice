@@ -1,0 +1,6 @@
+(link|script|img)([-_a-zA-Z0-9="'\s\/]+)(href|src)=["'][./]*([-_a-zA-Z0-9.\/]+)["']
+$1$2$3="{% static '$4' %}"
+
+// regex for changing the background images
+(url)\(['"]*([-_a-zA-Z0-9.\/]+)['"]*\)
+$1({% static '$2' %})

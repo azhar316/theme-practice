@@ -13,17 +13,17 @@
 		<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700" />
 		<!--end::Fonts-->
 		<!--begin::Page Vendors Styles(used by this page)-->
-		<link href="assets/plugins/custom/fullcalendar/fullcalendar.bundle.css" rel="stylesheet" type="text/css" />
+		<link href="{% static 'assets/plugins/custom/fullcalendar/fullcalendar.bundle.css' %}" rel="stylesheet" type="text/css" />
 		<!--end::Page Vendors Styles-->
 		<!--begin::Global Theme Styles(used by all pages)-->
-		<link href="assets/plugins/global/plugins.bundle.css" rel="stylesheet" type="text/css" />
-		<link href="assets/plugins/custom/prismjs/prismjs.bundle.css" rel="stylesheet" type="text/css" />
-		<link href="assets/css/style.bundle.css" rel="stylesheet" type="text/css" />
-		<link href="assets/css/custom-style.css" rel="stylesheet" type="text/css" />
+		<link href="{% static 'assets/plugins/global/plugins.bundle.css' %}" rel="stylesheet" type="text/css" />
+		<link href="{% static 'assets/plugins/custom/prismjs/prismjs.bundle.css' %}" rel="stylesheet" type="text/css" />
+		<link href="{% static 'assets/css/style.bundle.css' %}" rel="stylesheet" type="text/css" />
+		<link href="{% static 'assets/css/custom-style.css' %}" rel="stylesheet" type="text/css" />
 		<!--end::Global Theme Styles-->
 		<!--begin::Layout Themes(used by all pages)-->
 		<!--end::Layout Themes-->
-		<link rel="shortcut icon" href="assets/media/logos/favicon.ico" />
+		<link rel="shortcut icon" href="{% static 'assets/media/logos/favicon.ico' %}" />
 	</head>
 	<!--end::Head-->
 	<!--begin::Body-->
@@ -33,7 +33,7 @@
 		<div id="kt_header_mobile" class="header-mobile bg-primary header-mobile-fixed">
 			<!--begin::Logo-->
 			<a href="index.html">
-				<img alt="Logo" src="assets/media/logos/logo.png" class="max-h-30px" />
+				<img alt="Logo" src="{% static 'assets/media/logos/logo.png' %}" class="max-h-30px" />
 			</a>
 			<!--end::Logo-->
 			<!--begin::Toolbar-->
@@ -73,7 +73,7 @@
 								<div class="d-none d-lg-flex align-items-center mr-3">
 									<!--begin::Logo-->
 									<a href="index.html" class="mr-20">
-										<img alt="Logo" src="assets/media/logos/logo.png" class="max-h-35px" />
+										<img alt="Logo" src="{% static 'assets/media/logos/logo.png' %}" class="max-h-35px" />
 									</a>
 									<!--end::Logo-->
 									<!--begin::Tab Navs(for desktop mode)-->
@@ -115,7 +115,7 @@
 										<div class="dropdown-menu p-0 m-0 dropdown-menu-right dropdown-menu-anim-up dropdown-menu-lg">
 											<form>
 												<!--begin::Header-->
-												<div class="d-flex flex-column pt-7 pb-5 bgi-size-cover bgi-no-repeat rounded-top" style="background-image: url(assets/media/misc/bg-1.jpg)">
+												<div class="d-flex flex-column pt-7 pb-5 bgi-size-cover bgi-no-repeat rounded-top" style="background-image: url({% static 'assets/media/misc/bg-1.jpg' %})">
 													<!--begin::Title-->
 													<h4 class="d-flex flex-center rounded-top">
 														<span class="text-white">User Notifications</span>
@@ -453,7 +453,7 @@
 																<td class="pl-0 py-4 w-40px">
 																	<div class="symbol symbol-50 symbol-light">
 																		<span class="symbol-label">
-																			<img src="assets/media/users/default.jpg" class="h-50 align-self-center" alt="" />
+																			<img src="{% static 'assets/media/users/default.jpg' %}" class="h-50 align-self-center" alt="" />
 																		</span>
 																	</div>
 																</td>
@@ -482,7 +482,7 @@
 																<td class="pl-0 py-4 w-40px">
 																	<div class="symbol symbol-50 symbol-light">
 																		<span class="symbol-label">
-																			<img src="assets/media/users/default.jpg" class="h-50 align-self-center" alt="" />
+																			<img src="{% static 'assets/media/users/default.jpg' %}" class="h-50 align-self-center" alt="" />
 																		</span>
 																	</div>
 																</td>
@@ -511,7 +511,7 @@
 																<td class="pl-0 py-4 w-40px">
 																	<div class="symbol symbol-50 symbol-light">
 																		<span class="symbol-label">
-																			<img src="assets/media/users/default.jpg" class="h-50 align-self-center" alt="" />
+																			<img src="{% static 'assets/media/users/default.jpg' %}" class="h-50 align-self-center" alt="" />
 																		</span>
 																	</div>
 																</td>
@@ -540,7 +540,7 @@
 																<td class="pl-0 py-4 w-40px">
 																	<div class="symbol symbol-50 symbol-light">
 																		<span class="symbol-label">
-																			<img src="assets/media/users/default.jpg" class="h-50 align-self-center" alt="" />
+																			<img src="{% static 'assets/media/users/default.jpg' %}" class="h-50 align-self-center" alt="" />
 																		</span>
 																	</div>
 																</td>
@@ -569,7 +569,7 @@
 																<td class="pl-0 py-4 w-40px">
 																	<div class="symbol symbol-50 symbol-light">
 																		<span class="symbol-label">
-																			<img src="assets/media/users/default.jpg" class="h-50 align-self-center" alt="" />
+																			<img src="{% static 'assets/media/users/default.jpg' %}" class="h-50 align-self-center" alt="" />
 																		</span>
 																	</div>
 																</td>
@@ -663,7 +663,7 @@
 											<td class="pl-0 py-4 w-40px">
 												<div class="symbol symbol-50 symbol-light">
 													<span class="symbol-label">
-														<img src="assets/media/users/default.jpg" class="h-50 align-self-center" alt="" />
+														<img src="{% static 'assets/media/users/default.jpg' %}" class="h-50 align-self-center" alt="" />
 													</span>
 												</div>
 											</td>
@@ -682,7 +682,7 @@
 											<td class="pl-0 py-4 w-40px">
 												<div class="symbol symbol-50 symbol-light">
 													<span class="symbol-label">
-														<img src="assets/media/users/default.jpg" class="h-50 align-self-center" alt="" />
+														<img src="{% static 'assets/media/users/default.jpg' %}" class="h-50 align-self-center" alt="" />
 													</span>
 												</div>
 											</td>
@@ -701,7 +701,7 @@
 											<td class="pl-0 py-4 w-40px">
 												<div class="symbol symbol-50 symbol-light">
 													<span class="symbol-label">
-														<img src="assets/media/users/default.jpg" class="h-50 align-self-center" alt="" />
+														<img src="{% static 'assets/media/users/default.jpg' %}" class="h-50 align-self-center" alt="" />
 													</span>
 												</div>
 											</td>
@@ -859,7 +859,7 @@
 							<!--begin::User-->
 							<div class="d-flex align-items-center">
 								<div class="symbol symbol-60  mr-5 align-self-start align-self-xxl-center">
-									<div class="symbol-label" style="background-image:url('assets/media/users/300_13.jpg')"></div>
+									<div class="symbol-label" style="background-image:url({% static 'assets/media/users/300_13.jpg' %})"></div>
 								</div>
 								<div>
 									<a href="#" class="font-weight-bold font-size-h5 text-dark-75 text-hover-primary">Amit Verma</a>
@@ -986,9 +986,9 @@
 		<script>var KTAppSettings = { "breakpoints": { "sm": 576, "md": 768, "lg": 992, "xl": 1200, "xxl": 1200 }, "colors": { "theme": { "base": { "white": "#ffffff", "primary": "#6993FF", "secondary": "#E5EAEE", "success": "#1BC5BD", "info": "#8950FC", "warning": "#FFA800", "danger": "#F64E60", "light": "#F3F6F9", "dark": "#212121" }, "light": { "white": "#ffffff", "primary": "#E1E9FF", "secondary": "#ECF0F3", "success": "#C9F7F5", "info": "#EEE5FF", "warning": "#FFF4DE", "danger": "#FFE2E5", "light": "#F3F6F9", "dark": "#D6D6E0" }, "inverse": { "white": "#ffffff", "primary": "#ffffff", "secondary": "#212121", "success": "#ffffff", "info": "#ffffff", "warning": "#ffffff", "danger": "#ffffff", "light": "#464E5F", "dark": "#ffffff" } }, "gray": { "gray-100": "#F3F6F9", "gray-200": "#ECF0F3", "gray-300": "#E5EAEE", "gray-400": "#D6D6E0", "gray-500": "#B5B5C3", "gray-600": "#80808F", "gray-700": "#464E5F", "gray-800": "#1B283F", "gray-900": "#212121" } }, "font-family": "Poppins" };</script>
 		<!--end::Global Config-->
 		<!--begin::Global Theme Bundle(used by all pages)-->
-		<script src="assets/plugins/global/plugins.bundle.js"></script>
-		<script src="assets/plugins/custom/prismjs/prismjs.bundle.js"></script>
-		<script src="assets/js/scripts.bundle.js"></script>
+		<script src="{% static 'assets/plugins/global/plugins.bundle.js' %}"></script>
+		<script src="{% static 'assets/plugins/custom/prismjs/prismjs.bundle.js' %}"></script>
+		<script src="{% static 'assets/js/scripts.bundle.js' %}"></script>
 		<!--end::Global Theme Bundle-->
 	</body>
 	<!--end::Body-->
