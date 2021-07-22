@@ -634,5 +634,8 @@
 <script src="{% static 'assets/plugins/custom/datatables/datatables.bundle.js' %}"></script>
 <!--end::Page Vendors-->
 <!--begin::Page Scripts(used by this page)-->
-<script src="{% static 'assets/js/pages/crud/datatables/basic/basic.js' %}"></script>
+<script src="{% static 'assets/js/pages/crud/datatables/basic/basic.js' %}"></script>\
+<script type="text/javascript">
+	document.getElementById('tasks-tab').classList.add('active')
+</script>
 {% endblock %}
